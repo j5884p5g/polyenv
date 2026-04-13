@@ -1,6 +1,6 @@
 module github.com/withholm/polyenv
 
-go 1.24.6
+go 1.24.7
 
 require (
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.19.0
@@ -66,3 +66,4 @@ require (
 	golang.org/x/sys v0.36.0 // indirect
 	golang.org/x/text v0.27.0 // indirect
 )
+
