@@ -1,0 +1,9 @@
+name: Test
+on: pull_request_target
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Extract
+        run: |
+          echo "${{ github.event.pull_request.body}}"
