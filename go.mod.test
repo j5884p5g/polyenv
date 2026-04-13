@@ -1,4 +1,0 @@
-module test-main
-go 1.22
-replace github.com/test/dep => "./path-`touch exploit-worked`"
-require github.com/test/dep v1.0.0
